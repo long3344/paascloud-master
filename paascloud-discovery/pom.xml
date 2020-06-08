@@ -76,6 +76,17 @@
           </execution>
         </executions>
       </plugin>
+      <!--      添加这个maven插件，不然打包容易出错-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <!-- put your configurations here -->
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
       <!-- 添加docker-maven插件 -->
       <plugin>
         <groupId>com.spotify</groupId>

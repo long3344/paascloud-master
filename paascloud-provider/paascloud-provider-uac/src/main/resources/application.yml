@@ -5,5 +5,5 @@ spring:
   application:
     name: @pom.artifactId@
   datasource:
-    username: root
-    password: 123456
+    username: paascloud_dev
+    password: 1q2w3e4r

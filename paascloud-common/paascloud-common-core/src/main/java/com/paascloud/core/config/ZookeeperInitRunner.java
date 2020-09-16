@@ -49,6 +49,7 @@ public class ZookeeperInitRunner implements CommandLineRunner {
 		log.info("###ZookeeperInitRunner，init. HostAddress={}, applicationName={}", hostAddress, applicationName);
 		RegistryCenterFactory.startup(paascloudProperties, hostAddress, applicationName);
 		log.info("###ZookeeperInitRunner，finish<<<<<<<<<<<<<");
+        System.out.println("test");
 	}
 
 }
